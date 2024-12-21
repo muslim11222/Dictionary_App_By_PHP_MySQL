@@ -1,0 +1,299 @@
+/* form {
+     margin-left: 500px;
+}
+label {
+     font-weight: bold;
+     font-size: 18px;
+}
+input[type=text] {
+     width: 350px;
+     padding: 10px;
+     font-size: 16px;
+}
+input[type=submit] {
+     font-weight: bold;
+     font-size: 17px;
+} */
+
+
+
+/* dictinary css */
+/* Global Reset */
+/* Global Reset */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ /* Body Styling */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px;
+     height: 100vh;
+ }
+ 
+ /* Header Styling */
+ h1 {
+     font-size: 2.5em;
+     color: #333;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ /* Form Styling */
+ form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     max-width: 600px;
+     background-color: #fff;
+     padding: 30px;
+     border-radius: 8px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Input Fields Styling */
+ form input[type="text"] {
+     padding: 12px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     width: 80%;
+     font-size: 1em;
+     outline: none;
+ }
+ 
+ /* Input Focus Effect */
+ form input[type="text"]:focus {
+     border-color: #4CAF50;
+ }
+ 
+ /* Submit Button Styling */
+ form input[type="submit"] {
+     padding: 12px;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 1.1em;
+     width: 80%;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ 
+ /* Submit Button Hover Effect */
+ form input[type="submit"]:hover {
+     background-color: #45a049;
+ }
+ 
+ /* Link Styling */
+ form a {
+     text-decoration: none;
+     color: #4CAF50;
+     font-size: 1.1em;
+     margin-top: 15px;
+ }
+ 
+ /* Link Hover Effect */
+ form a:hover {
+     text-decoration: underline;
+ }
+ 
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ /* Body Styling */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px;
+ }
+ 
+ /* Table Container Styling */
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 30px;
+ }
+ 
+ /* Table Styling for table1 */
+ #table1 {
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+ }
+ 
+ #table1 th, #table1 td {
+     padding: 12px 18px;
+     border: 1px solid #ddd;
+     text-align: left;
+     font-size: 1em;
+ }
+ 
+ #table1 th {
+     background-color: #4CAF50;
+     color: white;
+ }
+ 
+ #table1 tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+ 
+ #table1 tr:hover {
+     background-color: #e1f5e1; /* Subtle highlight on row hover */
+ }
+ 
+ /* Table Styling for table2 */
+ #table2 {
+     width: 100%;
+     border-collapse: collapse;
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ #table2 td, #table2 th {
+     padding: 12px 18px;
+     border: 1px solid #ddd;
+     text-align: left;
+     font-size: 1em;
+ }
+ 
+ #table2 th {
+     background-color: #2196F3; /* Blue background for header */
+     color: white;
+ }
+ 
+ #table2 tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+ 
+ #table2 tr:hover {
+     background-color: #e1f4fd; /* Light blue hover effect */
+ }
+ 
+ /* Add some space between tables */
+ table + table {
+     margin-top: 40px;
+ }
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Global Reset */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ /* Body Styling */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 100vh;
+ }
+ 
+ /* Table Styling */
+ table {
+     width: 100%;
+     max-width: 800px;
+     margin: 20px auto;
+     border-collapse: collapse;
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Table Header Styling */
+ table th {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px;
+     text-align: left;
+     font-size: 1.1em;
+     border: 1px solid #ddd;
+ }
+ 
+ /* Table Data Cell Styling */
+ table td {
+     padding: 12px;
+     border: 1px solid #ddd;
+     text-align: left;
+     font-size: 1em;
+ }
+ 
+ /* Hover Effect on Table Rows */
+ table tr:hover {
+     background-color: #f2f2f2;
+ }
+ 
+ /* Alternate Row Coloring */
+ table tr:nth-child(even) {
+     background-color: #f9f9f9;
+ }
+ 
+ /* Table Border Styling */
+ table td, table th {
+     border: 1px solid #ddd;
+ }
+ 
+ /* Table Row Styling (when there is data) */
+ table tr {
+     transition: background-color 0.3s ease;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
